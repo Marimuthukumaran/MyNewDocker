@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY target/*.jar /app/
 
-CMD ["java","-cp","jenkin-docker-0.0.1-SNAPSHOT.jar","newpackage.myjava"]
+CMD ["java","-jar","jenkin-docker-0.0.1-SNAPSHOT.jar","newpackage.myjava"]
